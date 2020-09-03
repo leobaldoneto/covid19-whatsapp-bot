@@ -10,27 +10,26 @@ var packageJson = require('./package.json');
 // Uso para alternar algumas configurações no programa.
 const development = false;
 //Em modo de desenvolvimento, o bot só irá responder mensagens do admin.
-const adminNumber = '5573998223344'; // manter o formato
+const adminNumber = '5511998223344'; // manter o formato
 // Se quiser rodar no modo headless, troca para true.
 const headlessON = false;
 
 //Texto padrão do BOT
 const welcomeString = `*🤖 COVID-19* - versão ${packageJson.version};
 
-Olá, para receber os dados, envie *somente* o nome de uma cidade.
+Olá, para receber os dados, envie o nome de uma cidade.
 
 🏙️ Exemplos:
-> Itabuna
-> São Paulo
-> Maringá
-> Manaus
+> Itabuna BA
+> Curitiba
+> Rio de Janeiro
+> Manaus AM
 
 ou envie o número da opção desejada:
-1️⃣ - Casos por estados;
-2️⃣ - Sintomas;
-3️⃣ - Prevenção;
-4️⃣ - Transmissão;
-5️⃣ - Sobre o bot.`;
+1️⃣ - Sintomas
+2️⃣ - Prevenção
+3️⃣ - Transmissão
+4️⃣ - Sobre o bot.`;
 
 // Se estiver em versão de desenvolvimento, utiliza uma sessão diferente.
 // Uso isso para poder testar em outro número de whatsapp em modo dev.
