@@ -1,0 +1,35 @@
+{
+  "name": "covid19-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Esse bot recebe o nome de uma cidade e responde com dados sobre a Covid-19.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leobaldoneto/covid19-whatsapp-bot.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "covid19",
+    "covid-19",
+    "brasilio",
+    "brasil",
+    "node",
+    "nodejs"
+  ],
+  "author": "Leobaldo Alcantara Neto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leobaldoneto/covid19-whatsapp-bot/issues"
+  },
+  "homepage": "https://github.com/leobaldoneto/covid19-whatsapp-bot#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "fs": "0.0.1-security",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.8.2"
+  }
+}

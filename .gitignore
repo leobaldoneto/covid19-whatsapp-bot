@@ -1,3 +1,7 @@
+# Remove vscode e session.json
+.vscode
+session*.json
+
 # Logs
 logs
 *.log
