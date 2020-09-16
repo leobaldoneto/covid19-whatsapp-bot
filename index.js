@@ -69,8 +69,11 @@ client.on('ready', () => {
   console.log('Cliente pronto!');
 });
 
-//Implementar condição para não responder grupos.
 client.on('message', async (msg) => {
+  // Condição para não responder mensagens de grupos
+  if (typeof msg.author !== 'undefined') {
+    return;
+  }
   console.log('MESSAGE RECEIVED', msg);
   //se estiver em desenvolvimento, só aceita mensagem do Zap admin
   if (development) {
